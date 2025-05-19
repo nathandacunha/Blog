@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --corDeFundo: #020300;
+    --corDaFonte: #D1D5DE;
+}
+
+.navbar {
+    background-color: #101cbd;
+    height: 112px;
+    width: 480px;
+}
+
+.navbar .title h1 {
+    color: var(--corDaFonte);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    font-size: 50px;
+}
+
+.iconPerfil {
+    color: var(--corDaFonte);
+    font-size: 49px;
+    margin-left: 390px;
+    position: absolute;
+    top: 53.3px;
+    left: 20px;
+}
+
+.iconMenu {
+    color: var(--corDaFonte);
+    font-size: 45px;
+    position: absolute;
+    top: 63px;
+}
+
+body {
+    background-color: var(--corDeFundo);
+}
