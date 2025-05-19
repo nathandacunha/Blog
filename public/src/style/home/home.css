@@ -43,3 +43,23 @@
 body {
     background-color: var(--corDeFundo);
 }
+
+.titleCategoria h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    font-size: 35px;
+}
+
+.container {
+    background-color: red;
+    height: 250px;
+    width: 300px;
+}
+
+
+.manga1 h1 {
+    color: white;
+}
